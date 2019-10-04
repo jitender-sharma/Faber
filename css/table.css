@@ -1,0 +1,214 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+table.tablesorter tbody td {
+    font-family: 'Open Sans', sans-serif; 
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+        font-size: 12px; 
+	/*vertical-align: top;*/
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#f0f0f6;
+}
+ 
+table.tablesorter tr.even:hover td,
+table.tablesorter tr.odd:hover td {
+    background-color: #f4ffcd;
+}
+
+
+
+table.header thead tr {
+	background-image:url('../images/bar003.jpg');
+        height:37px;
+}
+
+table.header thead tr th{
+        padding:0 10px;
+}
+
+tbody td.tdrow {
+	background-image:url('../images/bar004_trans.png');
+        padding:0 10px;
+        height:30px;
+}
+
+
+tbody td.tdrow_multi {
+	background-image:url('../images/bar004_trans_multi.png');
+        padding:0 10px;
+        height:50px;
+}
+
+
+tbody td.tdrow_title {
+	background-image:url('../images/bar004_trans.png');
+        padding:0 10px;
+        height:30px;
+     font-weight: bold;
+}
+
+
+.tdsalary{
+     font-weight: bold;
+}
+
+
+.header thead th{
+    color:#e8eae9;
+}
+
+
+.header tbody td{
+    color:#4e4e4e;
+}
+
+
+#myTable thead th,
+#myTable2 thead th,
+#myTable3 thead th
+{
+    border-bottom: 1px solid #292929;
+    border-top: 1px solid #292929;
+    color:#ffffff;
+    background-color:#404040;
+    height: 28px;
+    font-size: 11px;
+}
+
+
+
+#myTable_nosort thead th{
+    border-bottom: 1px solid #292929;
+    border-top: 1px solid #292929;
+    color:#ffffff;
+    background-color:#404040;
+    height:37px;
+}
+
+table.tablesorter tbody tr.first_man td {
+    background-color:#f0f0f6;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+table.tablesorter tbody tr.month_man td {
+    background-color:#e8e8e8;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+table.tablesorter tbody tr.sec_man td {
+    border-bottom: 1px solid #c1c1c1;
+}
+table.tablesorter tbody tr.last_man td {
+    background-color:#cdcdcd;
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.tab_mid{
+    vertical-align:middle; height:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table thead tr.tabs {
+   /* color:#3f3f3f;
+    background-color:#d8d8d8;
+    height:37px;*/
+    
+    
+}
+
+table.tab thead tr th{
+    padding:0 10px;
+    border-bottom: 1px solid #aeaeae;
+    border-top: 1px solid #aeaeae;
+}
+
+
+
+
+
+
+
+
+
+
+.bb td, .bb th {
+     border-bottom: 1px solid #aeaeae !important;
+     padding:10px;
+}
+
+.bb:hover{
+    background-color:#f3f3f3;
+}
+
+
+
+
+
+
+
+.cc td, .cc th {
+     border-bottom: 1px solid #aeaeae !important;
+     padding:10px 5px;  
+} 
+
+.cc_alt td, .cc_alt th {
+     border-bottom: 1px solid #aeaeae !important;
+     padding:10px 5px;
+     background-color:#f3f3f3;
+}
+
+
+
+
+.rr td, .rr th {
+     border-bottom: 1px solid #aeaeae !important;
+     padding:0 5px;
+     height:40px;
+}
+.rr:hover{
+    background-color:#f3f3f3;
+}
+
+.rr_free td, .rr_free th {
+     padding:0 10px;
+     height:40px;
+}
+
+.rr_title td, .rr_title th{
+     border-bottom: 1px solid #aeaeae !important;
+     padding:0 10px;
+     height:40px;
+     font-weight: bold;
+     color:#266936;
+}
+
+
+
+
+
+
+.inputText100{
+    width:100%;
+}
+
+
+
+.tableheader{
+     color:#266936;
+     font-weight: bold;
+}
